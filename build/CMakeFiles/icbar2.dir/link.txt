@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/icbar2.dir/link.d CMakeFiles/icbar2.dir/src/cas.c.o CMakeFiles/icbar2.dir/src/parser.c.o -o icbar2

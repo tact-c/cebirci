@@ -1,3 +1,0 @@
-/home/pickle/Desktop/programming/C/icbar2/build/CMakeFiles/icbar2.dir
-/home/pickle/Desktop/programming/C/icbar2/build/CMakeFiles/edit_cache.dir
-/home/pickle/Desktop/programming/C/icbar2/build/CMakeFiles/rebuild_cache.dir
