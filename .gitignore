@@ -1,0 +1,6 @@
+build/
+*.o
+icbar2
+*.swp
+*.swo
+*~
