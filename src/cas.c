@@ -12,6 +12,7 @@ int main(){
     expression* node=parse(str);
     expression* previous;
     do{
+	    freetree(previous);
 	    previous=node;
 	    node=simplify(node);
     }while(!comparetree(node,previous));
