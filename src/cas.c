@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "parser.h"
+#include "adsimp.h"
 
 int main(){
     char str[100];

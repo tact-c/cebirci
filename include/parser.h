@@ -1,6 +1,5 @@
 #ifndef PARSER_H
 #define PARSER_H
-#include <stdbool.h>
 typedef enum{
     TK_NUM,
     TK_VAR,
@@ -39,9 +38,10 @@ typedef struct expression{
     struct expression* right;
 } expression;
 
+expression* makebinary(nodetype op, expression* left, expression* right);
+expression* makenumber(double val);
+expression* makevariable(char name);
 expression* parse(char* string);
 void printtree(expression* node, int indent);
 void freetree(expression* node);
-expression* simplify(expression* node);
-bool comparetree(expression* node, expression* previous);
 #endif
