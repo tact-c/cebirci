@@ -11,7 +11,7 @@ int main(){
     printf("please enter a mathematical expression:\n");
     fgets(str,100,stdin);
     expression* node=parse(str);
-    expression* previous;
+    expression* previous=parse(str);
     do{
 	    freetree(previous);
 	    previous=node;
