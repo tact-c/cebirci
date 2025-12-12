@@ -105,5 +105,3 @@ bool comparetree(expression* node, expression* previous){
 	}
 	return comparetree(node->left, previous->left)&&comparetree(node->right, previous->right);}
 
-
-
