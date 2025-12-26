@@ -47,7 +47,7 @@ typedef struct expression{
 } expression;
 
 void advance(){
-    while(input[pos]==' '||input[pos]=='\b'||input[pos]=='\n'){
+    while(isspace(input[pos])){
         pos++;
     }
     if(isalpha(input[pos])){
@@ -93,7 +93,7 @@ void advance(){
         break;
     
     default:
-    printf("BÖYLE BİR KARAKTER YOK!\n");
+    printf("No such character exists!\n");
         break;
     }
     pos++;
